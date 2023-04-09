@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap");
+@import "material-icons/iconfont/material-icons.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.router-link-exact-active {
+  color: #090f31;
+}
+
+.text-color-rightbar {
+  @apply font-ubuntu-mono mb-2 text-[#828282] text-xs;
+}
