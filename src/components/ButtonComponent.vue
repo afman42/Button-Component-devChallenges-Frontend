@@ -35,7 +35,7 @@ const defaultWHIcon = "w-28 h-10";
 const styleComputed = computed(() => {
   if (props.color) {
     if (props.color.includes("default")) {
-      return "bg-[#E0E0E0] text-[#3F3F3F] w-20 h-10";
+      return "bg-[#E0E0E0] text-[#3F3F3F] w-24 h-10";
     }
     if (props.color.includes("primary")) {
       return "bg-[#2962FF] text-[#FFF] w-24 h-10";
