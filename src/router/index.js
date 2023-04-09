@@ -15,6 +15,12 @@ const routes = [
         name: "Button",
         component: () => import("../pages/Button.vue"),
       },
+
+      {
+        path: "/:pathMatch(.*)*",
+        name: "not-found",
+        component: () => import("../pages/404.vue"),
+      },
     ],
   },
 ];
